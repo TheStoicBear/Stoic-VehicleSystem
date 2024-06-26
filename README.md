@@ -16,3 +16,28 @@ Expect Issues / Bugs / Fixes
 - Mileage Tracking: The mileage for each vehicle is tracked based on its license plate and updated in real-time as the vehicle is driven. The system saves the mileage to the database when the player exits the vehicle.
   ## Note
 ## This system is a work in progress. Expect issues, bugs, and fixes as development continues.
+
+
+
+
+
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+
+
+## Known Issues
+
+| Issue      | Description                      |
+|------------|----------------------------------|
+| Install brakes failes at success    | UNK             |
+| PHolder    | Issue 2 PHolder.              |
+
+## Fixed Issues
+
+| Issue      | Description                      |
+|------------|----------------------------------|
+| PHolder A    | Issue A fix PHolder.          |
+| PHolder B    | Issue B fix PHolder.          |
