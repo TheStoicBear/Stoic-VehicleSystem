@@ -495,7 +495,7 @@ end
 -- Function to install brakes with a progress bar and feedback
 function installBrakes(vehicleId, brakeType)
     local playerPed = PlayerPedId()
-    local vehicle = GetClosestVehicleToPlayer(playerPed, 5.0)
+    local vehicle = GetClosestVehicle(GetEntityCoords(playerPed), 5.0)
     
     if vehicle ~= 0 then
         local vehicleId = NetworkGetNetworkIdFromEntity(vehicle)
